@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+}
+header{
+    background-color: grey;
+    display: flex;
+    font-size: 2.5rem;
+    height: 30rem;
+    align-items: center;
+    justify-content: space-between;
+}
+div{
+    background-color: crimson;
+    border-radius: 50%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    margin: 0 0 0 3rem;
+}
+footer{
+
+    height: 3rem;
+    width: 50rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
